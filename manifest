@@ -9,7 +9,7 @@ description=Examines mutations from expression quantitative trait loci (eQTL) da
 documentationUrl=https://genepattern.github.io/tfsites.AnalyzeEQTLs/v1/
 fileFormat=
 job.cpuCount=
-job.docker.image=genepattern/tfsites\:0.5
+job.docker.image=genepattern/tfsites\:0.7
 job.memory=
 job.walltime=
 language=any
@@ -43,9 +43,9 @@ p2_prefix_when_specified=
 p2_type=java.io.File
 p2_value=
 
-
 p3_MODE=IN
 p3_TYPE=FILE
+p3_choiceDir=https://datasets.genepattern.org/data/module_support_files/tfsites/tfsites.genomes.json
 p3_default_value=
 p3_description=PKL file containing the reference genome that corresponds to the genomic coordinates used in the input eQTL and BED files.
 p3_fileFormat=pickle,.pkl
@@ -57,6 +57,7 @@ p3_prefix=
 p3_prefix_when_specified=
 p3_type=java.io.File
 p3_value=
+
 
 p4_MODE=
 p4_TYPE=TEXT
