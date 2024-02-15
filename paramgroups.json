@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Inputs and Outputs",
+        "description": "",
+        "hidden": false,
+        "parameters": [
+            "eQTL.data.input",
+            "relative.affinity.PBM.data",
+            "bed.genomic.interval.data",
+	    "reference.genome",
+	    "SNV.effects.of.eQTL.data.filename"
+        ]
+    },
+    {
+        "name": "Other Parameters",
+        "description": "",
+        "hidden": false,
+        "parameters": [
+            "IUPAC.definition",
+            "zero.index.genomic.coordinates",
+            "SNV.effect",
+            "optimization.threshold",
+            "sub-optimization.threshold"
+        ]
+    }
+
+]
